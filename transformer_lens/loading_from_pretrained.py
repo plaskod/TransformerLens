@@ -14,6 +14,7 @@ from transformer_lens.HookedTransformerConfig import HookedTransformerConfig
 
 # %% The model names used to access the models on the HuggingFace Hub.
 OFFICIAL_MODEL_NAMES = [
+    "TDC2023/trojan-base-pythia-1.4b",
     "gpt2",
     "gpt2-medium",
     "gpt2-large",
@@ -131,7 +132,6 @@ OFFICIAL_MODEL_NAMES = [
     "stabilityai/stablelm-base-alpha-7b",
     "stabilityai/stablelm-tuned-alpha-3b",
     "stabilityai/stablelm-tuned-alpha-7b",
-    "trojan-base-pythia-1.4b",
 ]
 
 # Model Aliases:
