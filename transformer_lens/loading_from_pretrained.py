@@ -131,6 +131,7 @@ OFFICIAL_MODEL_NAMES = [
     "stabilityai/stablelm-base-alpha-7b",
     "stabilityai/stablelm-tuned-alpha-3b",
     "stabilityai/stablelm-tuned-alpha-7b",
+    "trojan-base-pythia-1.4b",
 ]
 
 # Model Aliases:
@@ -473,6 +474,7 @@ MODEL_ALIASES = {
         "stablelm-tuned-alpha-7b",
         "stablelm-tuned-7b",
     ],
+    "TDC2023/trojan-base-pythia-1.4b": ["trojan-base-pythia-1.4b"],
 }
 
 # Sets a default model alias, by convention the first one in the model alias table, else the official name if it has no aliases
